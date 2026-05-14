@@ -3,7 +3,6 @@
   "short_name": "Sean's Health",
   "description": "Personal Apple Health dashboard",
   "start_url": "/index.html",
-  "scope": "/",
   "display": "standalone",
   "background_color": "#0a0e1a",
   "theme_color": "#0a0e1a",
