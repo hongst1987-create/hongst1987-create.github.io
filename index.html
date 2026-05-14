@@ -1061,7 +1061,7 @@ function showPage(id) {
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/service-worker.js')
+      navigator.serviceWorker.register('/health-dashboard/service-worker.js', { scope: '/health-dashboard/' })
         .then(() => console.log('Service Worker registered'))
         .catch(err => console.log('SW registration failed:', err));
     });
